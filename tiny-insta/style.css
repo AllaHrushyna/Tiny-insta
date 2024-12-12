@@ -1,0 +1,100 @@
+@font-face {
+    font-family: APL2741;
+    src: url(Fonts/APL2741Unicode.ttf);
+  }
+
+  @font-face {
+    font-family: Boris;
+    src: url(Fonts/Boris.otf);
+  }
+
+  @font-face {
+    font-family: Love Craft Italic;
+    src: url(Fonts/Love\ Craft\ Italic.ttf);
+  }
+
+  @font-face {
+    font-family: SimpleHandmade;
+    src: url(Fonts/SimpleHandmade.otf);
+  }
+
+
+/*header*/
+h1 {
+    text-align: center;
+    font-family: Love Craft Italic;
+    font-size: 70px;
+    color: rgb(133, 7, 218);
+}
+
+h2 {
+    font-family: Boris;
+    font-size: 45px;
+    color: rgb(2, 2, 94);
+    background-color: aliceblue;
+    padding: 10px;
+}
+
+hr {
+    color: blue;
+    size: 10cm;
+}
+
+/*main*/
+
+body {
+    background-color: #ffebeb;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    background-color: rgb(173, 212, 247);
+    padding: 25px;
+}
+
+img {
+    width: auto;
+    height: 200px;
+}
+
+.img-wrap {
+display: flex;
+flex-direction: row;
+overflow: scroll;
+}
+
+.img-wrap:hover {
+    cursor: ew-resize;
+}
+
+.hartje {
+    color: red;
+    font-size: 65px;
+    margin: 0;
+}
+
+.hartje:hover {
+    text-shadow: 5px 5px 15px rgb(245, 4, 125);
+    cursor: pointer;
+}
+
+
+.tussentitel {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+mark {
+    color: #080355;
+    background-color: rgb(212, 250, 253);
+}
+
+footer {
+    font-family: SimpleHandmade;
+    font-size: 25px;
+}
